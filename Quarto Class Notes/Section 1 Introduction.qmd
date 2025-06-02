@@ -1,0 +1,71 @@
+---
+title: "Section 1: Introduction"
+format: html
+editor: visual
+self-contained-math: true
+---
+
+# Introduction to Design
+
+*In interpreting and in presenting experimental results there is no adequate substitute for thought--thought about the questions to be asked, thought about the nature and weight of evidence the data provide on those questions, and thought about how the story can be told with clarity and full honesty to a reader. Statistical techniques must be chosen and used to aid, but not to replace, relevant thought. – Bryan-Jones and Finney, 1983.*
+
+There are two aspects to any design of experiments problem: the actual design and the analysis of the data from the experiment. We'll be discussing both aspects at length is semester in about equal measure.
+
+Experimentation is one of the most common activities that people engage in, because it allows an investigator to find out what happens to a response when settings of another variable are purposefully changed. The results of the experiment provide a basis for selecting optimum settings or determine a plan of action. Experimentation is carried out by everyone, in everyday activities. For example, observing what happens to the taste of brownies if you change the material of the baking dish or the oven temperature. Changing the time you visit the dining hall to determine if it is less crowded. Changing a pet's food to see if they eat better/more. All of these experiments.
+
+Can you think of others?
+
+\
+\
+\
+\
+\
+
+The goal of STAT 212 is to fully explore the "relevant thought" in the Bryan-Jones and Finney quote above, and to help you become independent in this thought. By the end of the semester you should be able to:
+
+1.  Optimally design simple studies to answer a research question.
+
+2.  Compute and interpret the analysis of data resulting from these designs.
+
+3.  Communicate the results of your analysis to non-statisticians both verbally and in writing.
+
+4.  Converse intelligently about more complex designs with someone who has more training.
+
+Well-designed experiments allow an investigator to conduct better studies more efficiently, analyze data effectively, and make the connections between the conclusions from the analysis and the original research objectives. In every experiment, there are seven basic steps:
+
+1.  \
+
+2.  \
+
+3.  
+
+4.  
+
+5.  
+
+6.  
+
+7.  
+
+8.  
+
+Throughout these steps, we must always keeps the following in mind:
+
+1.  
+
+2.  
+
+3.  
+
+4.  
+
+To look at these in more detail, let's consider an example (and state a few definitions along the way).
+
+**Example:**
+
+
+\begin{eqnarray*}
+f_Y(y) &=& \int_0^\infty \frac{1}{\theta} e^{-y/\theta}dy \\
+&=& 1
+\end{eqnarray*}
+
