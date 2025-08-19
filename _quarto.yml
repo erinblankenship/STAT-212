@@ -14,7 +14,8 @@ book:
     - Section 3 Factorial Treatment Design.qmd
     - Section 4 Block Designs.qmd
     - Section 5 Split Plot Designs.qmd
-    
+
+format-links: [pdf]      
 format: 
   html: default
   pdf:   

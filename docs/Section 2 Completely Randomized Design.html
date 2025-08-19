@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; The Completely Randomized Design – Stat 212 Notes</title>
+<title>2&nbsp; The Completely Randomized Design – Stat 212 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Section 2 Completely Randomized Design.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Section 2 Completely Randomized Design.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -138,37 +138,37 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Goals for STAT 212</span></span></a>
+ <span class="menu-text">Course Goals for STAT 212</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Section 1 Introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Design</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Design</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Section 2 Completely Randomized Design.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Section 3 Factorial Treatment Design.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Factorial Treatment Designs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Factorial Treatment Designs</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Section 4 Block Designs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Block Designs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Block Designs</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Section 5 Split Plot Designs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Split-Plot Designs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Split-Plot Designs</span></span></a>
   </div>
 </li>
     </ul>
@@ -181,16 +181,16 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#crd-model-and-basic-analysis" id="toc-crd-model-and-basic-analysis" class="nav-link active" data-scroll-target="#crd-model-and-basic-analysis"><span class="header-section-number">3.1</span> CRD Model and Basic Analysis</a></li>
-  <li><a href="#treatment-comparisons-and-contrasts" id="toc-treatment-comparisons-and-contrasts" class="nav-link" data-scroll-target="#treatment-comparisons-and-contrasts"><span class="header-section-number">3.2</span> Treatment Comparisons and Contrasts</a>
+  <li><a href="#crd-model-and-basic-analysis" id="toc-crd-model-and-basic-analysis" class="nav-link active" data-scroll-target="#crd-model-and-basic-analysis"><span class="header-section-number">2.1</span> CRD Model and Basic Analysis</a></li>
+  <li><a href="#treatment-comparisons-and-contrasts" id="toc-treatment-comparisons-and-contrasts" class="nav-link" data-scroll-target="#treatment-comparisons-and-contrasts"><span class="header-section-number">2.2</span> Treatment Comparisons and Contrasts</a>
   <ul class="collapse">
-  <li><a href="#unstructured-treatment-designs-and-all-pairwise-comparisons" id="toc-unstructured-treatment-designs-and-all-pairwise-comparisons" class="nav-link" data-scroll-target="#unstructured-treatment-designs-and-all-pairwise-comparisons"><span class="header-section-number">3.2.1</span> Unstructured Treatment Designs and All Pairwise Comparisons</a></li>
-  <li><a href="#control-versus-other-treatments" id="toc-control-versus-other-treatments" class="nav-link" data-scroll-target="#control-versus-other-treatments"><span class="header-section-number">3.2.2</span> Control versus other treatments</a></li>
-  <li><a href="#treatment-designs-with-other-structure" id="toc-treatment-designs-with-other-structure" class="nav-link" data-scroll-target="#treatment-designs-with-other-structure"><span class="header-section-number">3.2.3</span> Treatment Designs with (other) Structure</a></li>
+  <li><a href="#unstructured-treatment-designs-and-all-pairwise-comparisons" id="toc-unstructured-treatment-designs-and-all-pairwise-comparisons" class="nav-link" data-scroll-target="#unstructured-treatment-designs-and-all-pairwise-comparisons"><span class="header-section-number">2.2.1</span> Unstructured Treatment Designs and All Pairwise Comparisons</a></li>
+  <li><a href="#control-versus-other-treatments" id="toc-control-versus-other-treatments" class="nav-link" data-scroll-target="#control-versus-other-treatments"><span class="header-section-number">2.2.2</span> Control versus other treatments</a></li>
+  <li><a href="#treatment-designs-with-other-structure" id="toc-treatment-designs-with-other-structure" class="nav-link" data-scroll-target="#treatment-designs-with-other-structure"><span class="header-section-number">2.2.3</span> Treatment Designs with (other) Structure</a></li>
   </ul></li>
-  <li><a href="#model-adequacy" id="toc-model-adequacy" class="nav-link" data-scroll-target="#model-adequacy"><span class="header-section-number">3.3</span> Model Adequacy</a></li>
-  <li><a href="#power-for-the-completely-randomized-design" id="toc-power-for-the-completely-randomized-design" class="nav-link" data-scroll-target="#power-for-the-completely-randomized-design"><span class="header-section-number">3.4</span> Power for the Completely Randomized Design</a></li>
-  <li><a href="#quantitative-levels-of-a-factor" id="toc-quantitative-levels-of-a-factor" class="nav-link" data-scroll-target="#quantitative-levels-of-a-factor"><span class="header-section-number">3.5</span> Quantitative Levels of a Factor</a></li>
+  <li><a href="#model-adequacy" id="toc-model-adequacy" class="nav-link" data-scroll-target="#model-adequacy"><span class="header-section-number">2.3</span> Model Adequacy</a></li>
+  <li><a href="#power-for-the-completely-randomized-design" id="toc-power-for-the-completely-randomized-design" class="nav-link" data-scroll-target="#power-for-the-completely-randomized-design"><span class="header-section-number">2.4</span> Power for the Completely Randomized Design</a></li>
+  <li><a href="#quantitative-levels-of-a-factor" id="toc-quantitative-levels-of-a-factor" class="nav-link" data-scroll-target="#quantitative-levels-of-a-factor"><span class="header-section-number">2.5</span> Quantitative Levels of a Factor</a></li>
   </ul>
 </nav>
     </div>
@@ -199,7 +199,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></h1>
 </div>
 
 
@@ -347,8 +347,8 @@ window.Quarto = {
 </tbody>
 </table>
 </div>
-<section id="crd-model-and-basic-analysis" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="crd-model-and-basic-analysis"><span class="header-section-number">3.1</span> CRD Model and Basic Analysis</h2>
+<section id="crd-model-and-basic-analysis" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="crd-model-and-basic-analysis"><span class="header-section-number">2.1</span> CRD Model and Basic Analysis</h2>
 <p>The <strong>CRD Model</strong> can be written in two different ways.</p>
 <p><br>
 <br>
@@ -660,8 +660,8 @@ Residual      20   2018.000000    100.900000  Var(Residual)              .      
 <br>
 </p>
 </section>
-<section id="treatment-comparisons-and-contrasts" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="treatment-comparisons-and-contrasts"><span class="header-section-number">3.2</span> Treatment Comparisons and Contrasts</h2>
+<section id="treatment-comparisons-and-contrasts" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="treatment-comparisons-and-contrasts"><span class="header-section-number">2.2</span> Treatment Comparisons and Contrasts</h2>
 <p>We can see in the results above that we may reject the overall hypothesis that the four treatments produce the same mean fat absorption (<span class="math inline">\(F=5.41\)</span>, p-value<span class="math inline">\(=0.0069\)</span>). But, this doesn’t address the hypotheses you constructed earlier. Remember, we also considered:</p>
 <ul>
 <li><p>Do the vegetable fats differ from the animal fats in the amount of fat absorbed?</p></li>
@@ -706,8 +706,8 @@ Residual      20   2018.000000    100.900000  Var(Residual)              .      
 <li><p>Other structure</p></li>
 </ol>
 <p>Let’s first consider Unstructured designs, because these are the simplest.</p>
-<section id="unstructured-treatment-designs-and-all-pairwise-comparisons" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="unstructured-treatment-designs-and-all-pairwise-comparisons"><span class="header-section-number">3.2.1</span> Unstructured Treatment Designs and All Pairwise Comparisons</h3>
+<section id="unstructured-treatment-designs-and-all-pairwise-comparisons" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="unstructured-treatment-designs-and-all-pairwise-comparisons"><span class="header-section-number">2.2.1</span> Unstructured Treatment Designs and All Pairwise Comparisons</h3>
 <p><strong>Example:</strong> The <em>New England Journal of Medicine</em> published a study investigating the effects of different exercise programs on postural stability in Parkinson’s patients. The three exercise programs compared were: tai chi, resistance training, and stretching. 65 patients with Parkinson’s were randomly assigned to each program, and change in functional reach was measured after 24 weeks.</p>
 <ul>
 <li><p><strong>Treatment Design:</strong></p>
@@ -879,8 +879,8 @@ Stretchi    Tai_Chi      -4.0369      0.8669      192      -4.66      &lt;.0001 
 <li><p>Other structure</p></li>
 </ol>
 </section>
-<section id="control-versus-other-treatments" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="control-versus-other-treatments"><span class="header-section-number">3.2.2</span> Control versus other treatments</h3>
+<section id="control-versus-other-treatments" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="control-versus-other-treatments"><span class="header-section-number">2.2.2</span> Control versus other treatments</h3>
 <p>In some scenarios, one of the factor levels acts as a control treatment for some or all of the remaining levels. Often, we are interested in comparing all of the treatments against the control but not against each other. This means there are</p>
 <p><strong>Dunnett’s</strong> procedures is a modification to the two-sample <span class="math inline">\(t\)</span> test that is used when comparing all treatments against a control.</p>
 <p><strong>Example:</strong> Sections of tomato plant tissue were grown in culture with differing amounts and types of sugars with five replications of four treatments. The treatments were: control, 3% glucose, 3% fructose, and 3% sucrose.</p>
@@ -940,8 +940,8 @@ sucrose     control     -11.7155     -4.6845    -12.4990     -3.9010</code></pre
 <br>
 </p>
 </section>
-<section id="treatment-designs-with-other-structure" class="level3" data-number="3.2.3">
-<h3 data-number="3.2.3" class="anchored" data-anchor-id="treatment-designs-with-other-structure"><span class="header-section-number">3.2.3</span> Treatment Designs with (other) Structure</h3>
+<section id="treatment-designs-with-other-structure" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="treatment-designs-with-other-structure"><span class="header-section-number">2.2.3</span> Treatment Designs with (other) Structure</h3>
 <p>This is where the donut example fits in. There isn’t a true control, but we also may not care about all pairwise comparisons. Instead, we had some specific, pre-planned comparisons of interest:</p>
 <ul>
 <li><p>Do the vegetable fats differ from the animal fats in the amount of fat absorbed?</p></li>
@@ -1152,8 +1152,8 @@ sucrose     control     -11.7155     -4.6845    -12.4990     -3.9010</code></pre
 </p>
 </section>
 </section>
-<section id="model-adequacy" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="model-adequacy"><span class="header-section-number">3.3</span> Model Adequacy</h2>
+<section id="model-adequacy" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="model-adequacy"><span class="header-section-number">2.3</span> Model Adequacy</h2>
 <p>Everything we’ve done so far is based on the assumptions that the observations are adequately described by the model</p>
 <p><br>
 <br>
@@ -1261,8 +1261,8 @@ sucrose     control     -11.7155     -4.6845    -12.4990     -3.9010</code></pre
 </p>
 <p>In general, moderate departures from normality are of little concern, especially with the CRD. Nonconstant variance can be a bigger issue, but there are things we can do (like transformations) to stabilize the variance.</p>
 </section>
-<section id="power-for-the-completely-randomized-design" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="power-for-the-completely-randomized-design"><span class="header-section-number">3.4</span> Power for the Completely Randomized Design</h2>
+<section id="power-for-the-completely-randomized-design" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="power-for-the-completely-randomized-design"><span class="header-section-number">2.4</span> Power for the Completely Randomized Design</h2>
 <p>With multiple comparisons, we talked about Type I error and its probability. We defined Type I error as rejecting the null hypothesis when it is, in fact, true. If P(Type I error) = <span class="math inline">\(\alpha\)</span>, then P(no Type I error) = <span class="math inline">\(1-\alpha\)</span>.</p>
 <p>There is another kind of error – Type II error. A Type II error occurs when H<span class="math inline">\(_0\)</span> is not rejected, but H<span class="math inline">\(_0\)</span> is actually false. In earlier courses, we summarized these two types of errors in a table:</p>
 <p><br>
@@ -1541,8 +1541,8 @@ sucrose     control     -11.7155     -4.6845    -12.4990     -3.9010</code></pre
 </figure>
 </div>
 </section>
-<section id="quantitative-levels-of-a-factor" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="quantitative-levels-of-a-factor"><span class="header-section-number">3.5</span> Quantitative Levels of a Factor</h2>
+<section id="quantitative-levels-of-a-factor" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="quantitative-levels-of-a-factor"><span class="header-section-number">2.5</span> Quantitative Levels of a Factor</h2>
 <p>As a reminder, we’ve considered four basic treatment structures that may be used in a one-way treatment design:</p>
 <ol type="1">
 <li><p>Unstructured</p></li>
@@ -2349,12 +2349,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./Section 1 Introduction.html" class="pagination-link" aria-label="Introduction to Design">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Design</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Design</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Section 3 Factorial Treatment Design.html" class="pagination-link" aria-label="Factorial Treatment Designs">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Factorial Treatment Designs</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Factorial Treatment Designs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
