@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Section 1: Introduction</title>
+<title>Section 1: Introduction – Stat 212 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,16 +23,51 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="Section 1 Introduction_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Section 1 Introduction_files/libs/quarto-html/quarto.js"></script>
-<script src="Section 1 Introduction_files/libs/quarto-html/popper.min.js"></script>
-<script src="Section 1 Introduction_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Section 1 Introduction_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Section 1 Introduction_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Section 1 Introduction_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Section 1 Introduction_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Section 1 Introduction_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Section 1 Introduction_files/libs/bootstrap/bootstrap-1bc8a17f135ab3d594c857e9f48e611b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Section 2 Completely Randomized Design.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-77205cbbef6a5b90ba72edc25dea2156.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -66,15 +101,90 @@ window.Quarto = {
 
 </head>
 
-<body class="fullcontent">
+<body class="nav-sidebar floating">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Section 1 Introduction.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Design</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Stat 212 Notes</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Goals for STAT 212</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Section 1 Introduction.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Design</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Section 2 Completely Randomized Design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Section 3 Factorial Treatment Design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Factorial Treatment Designs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Section 4 Block Designs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Block Designs</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Section 5 Split Plot Designs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Split-Plot Designs</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Section 1: Introduction</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction to Design</span></h1>
 </div>
 
 
@@ -91,9 +201,10 @@ window.Quarto = {
 </header>
 
 
-<section id="introduction-to-design" class="level1">
-<h1>Introduction to Design</h1>
-<p><em>In interpreting and in presenting experimental results there is no adequate substitute for thought–thought about the questions to be asked, thought about the nature and weight of evidence the data provide on those questions, and thought about how the story can be told with clarity and full honesty to a reader. Statistical techniques must be chosen and used to aid, but not to replace, relevant thought. – Bryan-Jones and Finney, 1983.</em></p>
+<blockquote class="blockquote">
+<p>In interpreting and in presenting experimental results there is no adequate substitute for thought–thought about the questions to be asked, thought about the nature and weight of evidence the data provide on those questions, and thought about how the story can be told with clarity and full honesty to a reader. Statistical techniques must be chosen and used to aid, but not to replace, relevant thought.<br>
+- Bryan-Jones and Finney, 1983</p>
+</blockquote>
 <p>There are two aspects to any design of experiments problem: the actual design and the analysis of the data from the experiment. We’ll be discussing both aspects at length is semester in about equal measure.</p>
 <p>Experimentation is one of the most common activities that people engage in, because it allows an investigator to find out what happens to a response when settings of another variable are purposefully changed. The results of the experiment provide a basis for selecting optimum settings or determine a plan of action. Experimentation is carried out by everyone, in everyday activities. For example, observing what happens to the taste of brownies if you change the material of the baking dish or the oven temperature. Changing the time you visit the dining hall to determine if it is less crowded. Changing a pet’s food to see if they eat better/more. All of these experiments.</p>
 <p>Can you think of others?</p>
@@ -105,41 +216,290 @@ window.Quarto = {
 </p>
 <p>The goal of STAT 212 is to fully explore the “relevant thought” in the Bryan-Jones and Finney quote above, and to help you become independent in this thought. By the end of the semester you should be able to:</p>
 <ol type="1">
-<li><p>Optimally design simple studies to answer a research question.</p></li>
-<li><p>Compute and interpret the analysis of data resulting from these designs.</p></li>
-<li><p>Communicate the results of your analysis to non-statisticians both verbally and in writing.</p></li>
-<li><p>Converse intelligently about more complex designs with someone who has more training.</p></li>
+<li>Optimally design simple studies to answer a research question.</li>
+</ol>
+<p><br>
+</p>
+<ol start="2" type="1">
+<li>Compute and interpret the analysis of data resulting from these designs.</li>
+</ol>
+<p><br>
+</p>
+<ol start="3" type="1">
+<li>Communicate the results of your analysis to non-statisticians both verbally and in writing.</li>
+</ol>
+<p><br>
+</p>
+<ol start="4" type="1">
+<li>Converse intelligently about more complex designs with someone who has more training.</li>
 </ol>
 <p>Well-designed experiments allow an investigator to conduct better studies more efficiently, analyze data effectively, and make the connections between the conclusions from the analysis and the original research objectives. In every experiment, there are seven basic steps:</p>
 <ol type="1">
-<li><p><br>
-</p></li>
-<li><p><br>
-</p></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
 </ol>
 <p>Throughout these steps, we must always keeps the following in mind:</p>
 <ol type="1">
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
+<li><br>
+</li>
 </ol>
 <p>To look at these in more detail, let’s consider an example (and state a few definitions along the way).</p>
-<p><strong>Example:</strong></p>
-<p><span class="math display">\[\begin{eqnarray*}
-f_Y(y) &amp;=&amp; \int_0^\infty \frac{1}{\theta} e^{-y/\theta}dy \\
-&amp;=&amp; 1
-\end{eqnarray*}\]</span></p>
-</section>
+<p><strong>Example:</strong> Two students at Queensland University of Technology, as a project for their statistics class, carried out an experiment to test the effect certain factors such as refrigeration, stem length, and water content have on the life of a cut rose. The students considered</p>
+<ul>
+<li><p>Stem length (15 cm or 25 cm)</p></li>
+<li><p>Water content (tap water or tap water + citric acid)</p></li>
+<li><p>Temperature (refrigerated or room temperature)</p></li>
+</ul>
+<p>The response measured was the number of days until death, and the goal is to determine the conditions that will extend rose life.</p>
+<p>In this example, there are 3 <strong>factors</strong>.</p>
+<p><strong>Definition:</strong></p>
+<p><br>
+</p>
+<p>In order to study the effect of the factor on the response, two or more values of the factor are considered. These values are called <strong>levels</strong>.</p>
+<p><br>
+<br>
+<br>
+</p>
+<p>A <strong>treatment</strong> is a combination of factor levels. In this experiment:</p>
+<ul>
+<li>Factors:</li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li>Levels:</li>
+</ul>
+<p><br>
+<br>
+<br>
+</p>
+<ul>
+<li>Treatments:</li>
+</ul>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p><strong>Definition:</strong> The <strong>treatment design</strong></p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p><strong>Definition:</strong> The <strong>experimental design</strong></p>
+<p><br>
+<br>
+<br>
+<br>
+</p>
+<p>There are three main principles of <strong>experimental design</strong> that must be addressed with every design. They are:</p>
+<ol type="1">
+<li><strong>Replication:</strong></li>
+</ol>
+<p>&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;</p>
+<p>Why it’s important:</p>
+<p>&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;</p>
+<p>Each rose in the experiment above, each replicate, is an <strong>experimental unit. An experimental unit is the smallest physical entity to which a treatment can be <u>INDEPENDENTLY</u> applied.</strong></p>
+<p>The <strong>sampling unit</strong> is the entity that is actually observed or measured.</p>
+<p>&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;</p>
+<p><strong>Pseudo-replication</strong> occurs when subsets of the experimental units (often sampling units) are mistakenly identified as experimental units. This is the <strong>most common serious design error.</strong></p>
+<p><strong>Examples:</strong></p>
+<p>&nbsp;<br>
+&nbsp;<br>
+&nbsp;</p>
+<ol start="2" type="1">
+<li><strong>Randomization:</strong></li>
+</ol>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>Why it’s important:</p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+3. <strong>Control/Blocking:</strong></p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>Why it’s important:</p>
+<p><br>
+<br>
+<br>
+</p>
+<p>To make sure everyone’s on the same page, let’s review the two-sample case. Back to the example.</p>
+<p><strong>Example:</strong> Let’s consider just the data on refrigeration vs room temperature. There were 16 roses: 8 stored at room temperature and 8 stored in a refrigerator. Let<br>
+</p>
+<p><span class="math display">\[\mu_1 = \hspace{80mm}\]</span></p>
+<p><span class="math display">\[\mu_2 = \hspace{80mm}\]</span><br>
+</p>
+<p>We have observations <span class="math display">\[y_{ij} = \hspace{80mm}\]</span></p>
+<p>We can express each observation as a combination of the treatment mean and the characteristics unique to each individual rose.</p>
+<p><br>
+<br>
+<br>
+</p>
+<p>In STAT 102/318 we assume:</p>
+<p>We can further decompose <span class="math inline">\(\mu_i\)</span>:</p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>The Central Limit Theorem says that the sample means <span class="math inline">\(\overline{y}_{i\cdot}\)</span> will be (approximately) normally distributed with mean <span class="math inline">\(\mu_i\)</span> and variance <span class="math inline">\(\sigma^2/n\)</span>. We also have to estimate <span class="math inline">\(\sigma^2\)</span>, the variance of <span class="math inline">\(e_{ij}\)</span> and hence the variance of <span class="math inline">\(y_{ij}\)</span>.</p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>To determine if refrigeration and room temperature produce different lifetimes of cut roses we can test the null hypothesis H<span class="math inline">\(_0: \mu_1 = \mu_2\)</span> or we can estimate <span class="math inline">\(\mu_1 - \mu_2\)</span> with confidence using <span class="math inline">\(t\)</span>-procedures.</p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>We could also use the Analysis of Variance. The ANOVA table would look like:</p>
+<div class="center">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Source</th>
+<th style="text-align: center;">df</th>
+<th style="text-align: center;">Sum of Sq</th>
+<th style="text-align: center;">Mean Sq</th>
+<th style="text-align: center;">F</th>
+<th style="text-align: center;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Model</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">SSTrt</td>
+<td style="text-align: center;">MSTrt</td>
+<td style="text-align: center;">MSTrt/MSE</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Error</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">SSError</td>
+<td style="text-align: center;">MSE</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">SSTotal</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>There are two mistakes we could make carrying out this test.</p>
+<ul>
+<li><strong>Type I Error:</strong></li>
+</ul>
+<p><br>
+<br>
+<br>
+<br>
+</p>
+<ul>
+<li><strong>Type II Error:</strong></li>
+</ul>
+<p><br>
+<br>
+<br>
+</p>
+<p>A new concept we’ll talk about this semester is closely related to Type II Error: <strong>power</strong>.</p>
+<p><strong>Definition:</strong> <strong>Power</strong></p>
+<p><br>
+<br>
+<br>
+<br>
+<br>
+</p>
+<p>All of these concepts of treatment design, experimental design, power, factors, and levels will be revisited many times over the course of the semester with increasingly complex treatment and experimental designs. We’ll start with the simplest experimental design: the <strong>Completely Randomized Design</strong> (CRD).</p>
 
-</main>
-<!-- /main column -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -557,6 +917,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Course Goals for STAT 212">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Goals for STAT 212</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Section 2 Completely Randomized Design.html" class="pagination-link" aria-label="The Completely Randomized Design">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Completely Randomized Design</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
