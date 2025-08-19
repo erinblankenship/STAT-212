@@ -1,4 +1,4 @@
-# Course Goals for STAT 212
+# Course Goals for STAT 212 {-}
 
 STAT 212 is an introduction to the statistical aspects of study design. We'll consider all stages of the experimental process. By the end of the course, you will:
 
