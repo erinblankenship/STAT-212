@@ -17,7 +17,7 @@ book:
     
 format: 
   html: default
-  pdf:  
+  pdf:   
     header-includes:
         - \usepackage{float}
         - \floatplacement{table}{H}  
