@@ -15,7 +15,8 @@ book:
     - Section 4 Block Designs.qmd
     - Section 5 Split Plot Designs.qmd
 
-format-links: [pdf]      
+  downloads: [pdf]    
+
 format: 
   html: default
   pdf:   
@@ -28,4 +29,5 @@ format:
       - top=20mm
       - left=15mm
       - right=10mm
-      
+
+   
