@@ -18,8 +18,11 @@ STAT 212 is an introduction to the statistical aspects of study design. We'll co
 
 -   be able to clearly write up the results of an analysis so that a non-statistician could understand the major findings of the study.
 
-```
-quarto::render("syllabus-fall-2025.qmd", output_dir="docs/")
-eval: true
-include: false
+```{r}
+#| eval: true
+#| include: false
+
+quarto::quarto_render(input="syllabus fall 2025.qmd")
+file.copy("syllabus fall 2025.html","docs/")
+file.copy("syllabus-fall-2025.pdf","docs/")
 ```
