@@ -25,4 +25,5 @@ STAT 212 is an introduction to the statistical aspects of study design. We'll co
 quarto::quarto_render(input="syllabus fall 2025.qmd")
 file.copy("syllabus fall 2025.html","docs/")
 file.copy("syllabus-fall-2025.pdf","docs/")
+file.copy("syllabus fall 2025_files","docs/",recursive=TRUE)
 ```
