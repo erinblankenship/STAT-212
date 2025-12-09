@@ -992,8 +992,9 @@ Row-column designs tend to be situations in which there are two gradients:
 
 The generic model for row-column designs is
 
-                observation = row + column + treatment + error
-
+```         
+            observation = row + column + treatment + error
+```
 
 We assume there is no row$\times$column interaction, no row$\times$treatment interaction, and no column$\times$treatment interaction.
 
