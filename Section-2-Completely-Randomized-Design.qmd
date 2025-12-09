@@ -197,7 +197,7 @@ Now let's construct the ANOVA table:
 
 ::: center
 | Source of Variation | df | SS | MS | Expected MS | F |
-|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
+|:---|:---|:---|:---|:---|:---|
 | Fat Type | $t-1=3$ | SSTrt | MST | $\sigma^2 + \frac{n}{t-1}\sum_{i=1}^4 \tau_i^2$ | MST/MSE |
 | Error | $t(n-1) = 20$ | SSError | MSE | $\sigma^2$ |  |
 | Total | $nt-1=23$ | SSTotal |  |  |  |
@@ -1279,7 +1279,7 @@ Let's go back to the donut scenario. In that case, the ANOVA table was
 
 ::: center
 | Source of Variation | df | SS | MS | Expected MS | F |
-|:-----------|:-----------|:-----------|:-----------|:-----------|:-----------|
+|:---|:---|:---|:---|:---|:---|
 | Fat Type | $t-1=4-1=3$ | SSTrt | MST | $\sigma^2 + \frac{n}{t-1}\sum_{i=1}^4 \tau_i^2$ | MST/MSE |
 | Error | $t(n-1) = 4(6-1) = 20$ | SSError | MSE | $\sigma^2$ |  |
 | Total | $nt-1=(4)(6)-1=23$ | SSTotal |  |  |  |

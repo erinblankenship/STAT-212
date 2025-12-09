@@ -2,11 +2,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Stat 102 Notes",
+    "title": "Stat 212 Notes",
     "section": "",
-    "text": "Course Goals for STAT 102\nSTAT 212 is an introduction to the statistical aspects of study design. We’ll consider all stages of the experimental process. By the end of the course, you will:\n\nunderstand the differences between designed experiments and observational studies, including the resulting conclusions that can be drawn.\nbe familiar with major experimental and treatment design structures, and what to consider when choosing an appropriate design for a study.\nunderstand the impact of sample size, variation, and effect size on power.\nbe able to write down a linear additive model, correctly specify fixed effects, random effects, interactions, and model assumptions for the error terms.\nsketch a skeleton ANOVA table from a description of a study.\nunderstand data collection considerations\nbe able to analyze data resulting from major experimental and treatment design structures, including estimating main and simple effects, pairwise comparisons, contrasts, and model parameters.\nbe able to clearly write up the results of an analysis so that a non-statistician could understand the major findings of the study.",
+    "text": "Course Goals for STAT 212\nSTAT 212 is an introduction to the statistical aspects of study design. We’ll consider all stages of the experimental process. By the end of the course, you will:\n\nunderstand the differences between designed experiments and observational studies, including the resulting conclusions that can be drawn.\nbe familiar with major experimental and treatment design structures, and what to consider when choosing an appropriate design for a study.\nunderstand the impact of sample size, variation, and effect size on power.\nbe able to write down a linear additive model, correctly specify fixed effects, random effects, interactions, and model assumptions for the error terms.\nsketch a skeleton ANOVA table from a description of a study.\nunderstand data collection considerations\nbe able to analyze data resulting from major experimental and treatment design structures, including estimating main and simple effects, pairwise comparisons, contrasts, and model parameters.\nbe able to clearly write up the results of an analysis so that a non-statistician could understand the major findings of the study.",
     "crumbs": [
-      "Course Goals for STAT 102"
+      "Course Goals for STAT 212"
     ]
   },
   {
