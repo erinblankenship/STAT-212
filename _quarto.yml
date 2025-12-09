@@ -5,7 +5,7 @@ project:
 
 editor: visual
 book: 
-  title: Stat 212 Notes
+  title: Stat 102 Notes
   
   chapters:
     - index.qmd
