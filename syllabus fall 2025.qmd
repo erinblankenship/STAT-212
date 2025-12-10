@@ -1,0 +1,168 @@
+---
+project:
+  output-dir: docs
+  
+format: 
+  html: default
+  pdf:   
+    header-includes:
+        - \usepackage{float}
+        - \floatplacement{table}{H}  
+    fontsize: 11pt
+    geometry: 
+      - top=20mm
+      - left=15mm
+      - right=10mm
+---
+
+# **STAT 212: Principles of Study Design**
+
+**Instructor:** Dr. Erin Blankenship (she/her)
+
+**email:** `erin.blankenship@unl.edu`
+
+**Lecture:** 11:00-12:15 Tuesday/Thursday, Hardin Hall 49
+
+**Office Hours:** 10:00-11:00 Monday/Wednesday or by appointment; 343B Hardin Hall, North Wing
+
+**Lab Instructor:** Arian Alai (he/him)
+
+**email:** `aalai4@huskers.unl.edu`
+
+**Office Hours:** 8:00-9:00 am Tuesday/12:30-1:30 pm Thursday; 349E Hardin Hall, North Wing
+
+**Required Materials:** No book is required. We will be using statistical software (SAS OnDemand) that is cloud-based and free. Instructions on accessing SAS OnDemand are in Canvas, and we'll go over them during Lab 1 on 27 August.
+
+**Prerequisites:** STAT 102 or STAT 318
+
+**Course Description:** Introduction to statistical aspects of study design. Both designed experiments and observational studies are covered. Sampling techniques, major experimental and treatment design structures, as well as power and sample size considerations.
+
+**Course Goals:**
+
+-   Understand the differences between designed experiments and observational studies. Including what conclusions can be made.
+
+-   Understand differences in sampling techniques and evaluating which should be considered for a study.
+
+-   Be familiar with major experimental and treatment design structures and what to consider when choosing an appropriate one for a study.
+
+-   Understand the impact of sample size, variation, and effect size on power.
+
+-   Know the strengths and weaknesses of different data collection and analysis methods.
+
+-   Be able to write down a linear additive model, correctly specify fixed effects, random effects, interactions and model assumptions for the error terms.
+
+-   Sketch a skeleton ANOVA table from a description of the study
+
+-   Understand data considerations such as patterns of missing data, evaluating systematic differences in sampling populations, choice of design points
+
+\newpage
+
+**Grading:**
+
+| Assignment(s) | Contribution to Final Grade |
+|---------------|-----------------------------|
+| Exam 1        | 25%                         |
+| Exam 2        | 25%                         |
+| Lab           | 25%                         |
+| Project       | 25%                         |
+
+\
+
+**Grading Scale:**
+
+| Grade | Final Percentage Range |
+|-------|------------------------|
+| A     | 94.0-100               |
+| A-    | 90.0-93.99             |
+| B+    | 88.0-89.99             |
+| B     | 84.0-87.99             |
+| B-    | 80.0-83.99             |
+| C+    | 78.0-79.99             |
+| C     | 74.0-77.99             |
+| C-    | 70.0-73.99             |
+| D+    | 68.0-69.99             |
+| D     | 64.0-67.99             |
+| D-    | 60.0-63.99             |
+| F     | \<60.0                 |
+
+\
+**Course Expectations:** In this course, you are expected to have professional behavior. You are expected to attend all class meetings, be curious, ask questions, seek opportunities to learn, and be open and responsive to constructive feedback. In addition:
+
+-   Be an active participant--statistics is not a spectator sport!
+
+-   Be committed, take your work seriously
+
+-   Engage with the in-class activities and labs
+
+-   Help others--if you understand the material being discussed, practice your mentoring skills. This does not means sharing answers, but instead helping others understand the concepts.
+
+-   Complete any assigned readings.
+
+You are also expected to exhibit a professional demeanor (language, attitude) toward others. Disagreement during discussions is welcome and often productive in developing a deeper understanding of the concepts being discussed. However, disagreement does not warrant yelling or disrespectful language or behavior. Unprofessional behavior will not be tolerated, and appropriate actions will be taken to prevent future occurrences.
+
+**Recording of class-related activity:** I invite all of you to join me in actively creating and contributing to a positive, productive, and respectful classroom culture. Each student contributes to an environment that shapes the learning process. Any work and/or communication that you are privy to as a member of this course should be treated as the intellectual property of the speaker/creator, and is not to be shared outside the context of this course.
+
+Students may not make or distribute screen captures, audio/video recordings of, or livestream, any class-related activity, including lectures and presentations, without express prior written consent from me or an approved accommodation from Services for Students with Disabilities. If you have (or think you may have) a disability such that you need to record or tape class-related activities, you should contact Services for Students with Disabilities. If you have an accommodation to record class-related activities, those recordings may not be shared with any other student, whether in this course or not, or with any other person or on any other platform.
+
+**Labs:** All students must be registered for lab (section 002). Weekly labs will give you the opportunity to practice applying statistical software to the design and analysis concepts covered in class. There will be about 10 weekly lab assignments leading up to Thanksgiving break. You will turn in the weekly lab assignment for grading and your lab grades, together with lab attendance, will be used in determining the final lab grade. All labs will be submitted in Canvas, and any submission instructions will be included in the assignment (e.g., the submission must be typed, must be submitted as a pdf, etc.). Late lab submissions should be avoided if at all possible. If this policy is abused, it will be changed to "No late labs are accepted."
+
+**Lab attendance is required!** The 25% of the overall grade corresponding to Lab is broken down as follows:
+
+-   30% Lab attendance
+-   70% Graded lab assignments
+
+**Exams:** Two exams will be given during lab: October 8 and November 19. You will be allowed to use a calculator, but exams are closed notes. The exams will evaluate your understanding of the material, as well as your ability to synthesize and transfer that knowledge to other scenarios and situations; questions will assess conceptual understanding as opposed to mere memorization and mechanical calculation. You are expected to take exams at the scheduled times. If this is impossible due to extreme circumstances (illness, death in the family, previously scheduled activities vital to academic program), please notify me and provide appropriate documentation. No make-up exams will be given if I am not notified prior to the examination. You will be required to obtain a note from your physician or advisor explaining the nature of the conflict.
+
+**Project:** A final group project will take the place of a final exam. The project will give you the opportunity to carry out the experimental design process from beginning to end, including formulating a question, designing an experiment to answer that question, collecting the data, analyzing the data, drawing conclusions about the research question, and presenting your findings in a coherent way. The project will include a presentation during the last week of class and a final written report.
+
+**Instructional Continuity:** If in-person classes are canceled, you will be notified of the instructional continuity plan for this class through Canvas.
+
+\newpage
+
+**AI and Explainability Policy:** (adapted from Dr. Vanderplas)
+
+-   Any use of generative AI must be disclosed in an appendix to your submission - this includes brainstorming, editing, using AI as spell-check/grammar-check, and so on. You must document the following:
+
+    -   the version of the generative AI used
+
+    -   the full sequence of prompts and responses
+
+    -   any additional inputs you provided to the AI system
+
+    -   a “diff” between the AI responses and your submission, showing exactly what was generated by the AI system and what you changed.
+
+It may be useful to leverage AI tools to ensure that your work conforms to grammar and style guidelines, but I very highly discourage the use of generative AI for content or code (I've seen it generate incorrect code too many times).
+
+-   You must be able to explain any work you turn in, including code. If you cannot explain the logic behind your approach as well as how it works in practice, then you will not receive credit for your submission.
+
+**Department Grade Appeal Policy:** The Department of Statistics [grade appeal policy](https://statistics.unl.edu/department-policies-grade-appeals-academic-integrity/)
+
+**Academic Integrity:** You are encouraged to work together on problems and exercises, but the work you turn in must be your own (unless the assignment specifically states otherwise). Work on exams must be your own. University policy will be followed in cases of academic dishonesty: In cases where an instructor finds that a student has committed any act of academic dishonesty, the instructor may in the exercise of his or her professional judgment impose an academic sanction as severe as giving the student a failing grade in the course. Before imposing an academic sanction the instructor shall first attempt to discuss the matter with the student. If deemed necessary by either the instructor or the student, the matter may be brought to the attention of the student's major advisor, the instructor's department chairperson or head, or the dean of the college in which the student is enrolled. For additional details see [the department policy.](https://statistics.unl.edu/department-policies-grade-appeals-academic-integrity/)
+
+**Services for Students with Disabilities:** The University strives to make all learning experiences as accessible as possible. If you anticipate or experience barriers based on your disability (including mental health, chronic or temporary medical conditions), please let your instructor know immediately so that you can discuss options privately. To establish reasonable accommodations, your instructor may request that you register with Services for Students with Disabilities. If you are eligible for services and register with the office, make arrangements with your instructor as soon as possible to discuss your accommodations so they can be implemented in a timely manner. SSD is located in 117 Louise Pound Hall and can be reached at 402-472-3787.
+
+**University Policies:** All [university-wide course policies.](https://executivevc.unl.edu/academic-excellence/teaching-resources/course-policies/)
+
+\newpage
+
+**Tentative Course Outline**
+
+| Week | Dates | Notes | Topics |
+|------------------|------------------|------------------|------------------|
+| 1 | 26-28 August |  | Introduction to designed experiments; definitions |
+| 2 | 2-4 September | Lab 1 due | Review of $t$ procedures and other 102/318 topics; One-way ANOVA; CRDs |
+| 3 | 9-11 September | Lab 2 due | One-way ANOVA; CRDs; pairwise comparisons |
+| 4 | 16-18 September | Lab 3 due | Model adequacy; power |
+| 5 | 23-25 September | Lab 4 due | Power; quantitative levels of a factor |
+| 6 | 30 Sept - 2 Oct | Lab 5 due | Factorials; main, simple, and interaction effects |
+| 7 | 7-9 October | Exam 1 during lab | Tests for effects |
+| 8 | 14-16 October | Lab 6 due | More than two levels of a factor |
+| 9 | 21-23 October | No class on 21 Oct; Lab 7 due | Multifactor experiments |
+| 10 | 28-30 October | Lab 8 due | Multifactor experiments |
+| 11 | 4-6 November | Lab 9 due; Project checkpoint #1 | Blocking; RCBDs |
+| 12 | 11-13 November | Lab 10 due | RCBDs; row-column designs; incomplete block designs |
+| 13 | 18-20 November | Exam 2 during lab; Project checkpoint #2 | Split-plot experiments |
+| 14 | 25-27 November | No lab on 26 Nov, no class on 27 Nov | Split-plot experiments |
+| 15 | 2-4 December | Project checkpoint #3 | Split-plot experiments; catch up |
+| 16 | 9-11 December |  | Final project work time; final presentations |
+| Finals Week |  | No final exam | Final reports due on Monday, 15 December at 9:00 am |
